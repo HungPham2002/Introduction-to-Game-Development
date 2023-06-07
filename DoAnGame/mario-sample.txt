@@ -1,0 +1,11 @@
+[SETTINGS]
+start	0
+#scene list
+[SCENES]
+
+0	introscene.txt
+1	worldmapscene.txt
+2	scene1.txt
+3	scene2.txt
+4	endgamescene.txt
+

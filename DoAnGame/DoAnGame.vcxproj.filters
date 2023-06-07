@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WorldMap1">
+      <UniqueIdentifier>{c0364878-171b-4794-baed-49b6b1993a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intro">
+      <UniqueIdentifier>{16fdc06b-5aec-4cda-a962-73aa3759b875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{3e712a8a-7ef9-44ee-a4a5-a6df38122dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{301145ab-339f-475f-b0c2-bee5366ef78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameBoard">
+      <UniqueIdentifier>{bf21200b-58c4-4e2c-bde1-fd7e0eaa061a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{9e86442d-7783-470d-9daa-a6904a7333f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bricks">
+      <UniqueIdentifier>{a94689d4-53cb-4178-bd87-e5854702dad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid">
+      <UniqueIdentifier>{d59686f5-a4b8-4c27-93fa-cc45e3de029f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EndGame">
+      <UniqueIdentifier>{4efec44b-bc5b-490f-bf0d-2120b13ca6d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMapScene.cpp">
+      <Filter>WorldMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMario.cpp">
+      <Filter>WorldMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>WorldMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyKoopas.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyGoomba.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopas.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantFireBall.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PiranhaPlant.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="MushRoom.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPointItem.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PButton.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearBoard.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UpsideBrick.h">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="BrokenBrick.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Fragment.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="QBrick.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="UpsideBrick.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedBar.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Tail.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomerangBros.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBar.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Flower.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickAttack.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="EngGame.cpp">
+      <Filter>EndGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag.cpp">
+      <Filter>EndGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMapScene.h">
+      <Filter>WorldMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMario.h">
+      <Filter>WorldMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>WorldMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyGoomba.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyKoopas.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Koopas.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Goomba.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PiranhaPlant.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantFireBall.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPointItem.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MushRoom.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PButton.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearBoard.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="BrokenBrick.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fragment.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="QBrick.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedBar.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Tail.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomerangBros.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBar.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickAttack.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGame.h">
+      <Filter>EndGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>EndGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
