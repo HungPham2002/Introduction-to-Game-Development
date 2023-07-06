@@ -4,7 +4,7 @@ Hello, I'm student at University of Information Technology - VNUHCM. My primary 
 Project: Mario 3 Bros
 Programming language: C++
 Instructor: Mr Dinh Nguyen Anh Dung
-##How to run project?
+## How to run project?
 - step 1: Use Visual Studio create and clone this project.
 - step 2: Right click 'DoAnGame' -> Properties -> Linker -> Input -> Additional Dependencies -> type in dependencies: 
 d3dx9.lib
