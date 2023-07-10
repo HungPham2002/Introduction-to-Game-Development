@@ -10,6 +10,7 @@ Hello, I'm a student at University of Information Technology - VNUHCM. My primar
 ## Overview
 - Project: Mario 3 Bros
 - Programming language: C++
+- API: Microsoft DirectX SDK (June 2010) 
 - Instructor: Mr Dinh Nguyen Anh Dung
 ## How to run project?
 - step 1: Use Visual Studio create and clone this project.
